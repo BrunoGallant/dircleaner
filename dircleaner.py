@@ -16,7 +16,6 @@ def delete(x):
 def archive(x):
     mkArchiveDir()
     shutil.move(x, archivepath)
-    print("a")
 
 def compress(x):
     mkArchiveDir()
